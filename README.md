@@ -26,7 +26,7 @@ Résultat : un requin 3D généré par IA, affiché et animé directement dans l
 ###  1. Lancer l’API sur Google Colab
 
 Clique sur le bouton ci-dessous pour ouvrir le notebook :  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
+[![Open dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
 
 Ensuite :
 1. Exécute les cellules une par une.
