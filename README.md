@@ -1,5 +1,5 @@
 # 🧊 Shap-E 3D Viewer  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
+[![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
 
 > Génération et visualisation d’objets 3D à partir d’un **prompt texte**, grâce au modèle **Shap-E d’OpenAI**.  
 > Projet développé dans le cadre du **TER (Travaux d’Étude et de Recherche)** – Université de La Réunion 🏝️
@@ -26,7 +26,7 @@ Résultat : un requin 3D généré par IA, affiché et animé directement dans l
 ###  1. Lancer l’API sur Google Colab
 
 Clique sur le bouton ci-dessous pour ouvrir le notebook :  
-[![Open dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
+[![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
 
 Ensuite :
 1. Exécute les cellules une par une.
