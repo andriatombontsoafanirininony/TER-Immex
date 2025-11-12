@@ -1,18 +1,45 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
+# 🧊 Shap-E 3D Viewer  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
+
+> Génération et visualisation d’objets 3D à partir d’un **prompt texte**, grâce au modèle **Shap-E d’OpenAI**.  
+> Projet développé dans le cadre du **TER (Travaux d’Étude et de Recherche)** – Université de La Réunion 🏝️
+
+---
+
+##  Aperçu du projet
+
+L’application est composée de deux parties :
+1. **Frontend React + Three.js** :  
+   Interface web interactive permettant de saisir un *prompt texte*, de visualiser et télécharger le modèle 3D généré.
+2. **Backend Flask (hébergé sur Google Colab)** :  
+   Exécute le modèle Shap-E et retourne le fichier `.glb` ou `.ply`.
+
+🦈 Exemple de prompt :  
+> `"a crystal shark"`
+
+Résultat : un requin 3D généré par IA, affiché et animé directement dans le navigateur.
+
+---
+
+## 🚀 Démarrage rapide
+
+###  1. Lancer l’API sur Google Colab
+
+Clique sur le bouton ci-dessous pour ouvrir le notebook :  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andriatombontsoafanirininony/TER-Immex/blob/main/API-ShapE.ipynb)
+
+Ensuite :
+1. Exécute les cellules une par une.
+2. Copie l’URL publique affichée par **Cloudflared** (ex : `https://xxxx.trycloudflare.com`).
+3. Change le lien **API_URL** dans App.jsx sur notre frontend fait avec React.
+
+---
+
+###  2. Lancer le front React
+
+```bash
+# Installation des dépendances
+npm install
+
+# Lancement du serveur local
+npm run dev
